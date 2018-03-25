@@ -12,7 +12,6 @@
 		284C58482061F86000AC925F /* DolfuFrameSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 284C58442061F85300AC925F /* DolfuFrameSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2861EAD6206261E800DA8E95 /* DolfuUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281395CB20623B5200D8AE8F /* DolfuUtils.framework */; };
 		2861EAD7206261E800DA8E95 /* DolfuUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 281395CB20623B5200D8AE8F /* DolfuUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2861EAE5206269D500DA8E95 /* ColorSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2861EAE6206269D500DA8E95 /* ColorSlider.framework */; };
 		2861EAEE206287C600DA8E95 /* FilterPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2861EAED206287C600DA8E95 /* FilterPickerViewController.swift */; };
 		28ADB3E0205D71FA006B2DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ADB3DF205D71FA006B2DB1 /* AppDelegate.swift */; };
 		28ADB3E2205D71FA006B2DB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ADB3E1205D71FA006B2DB1 /* ViewController.swift */; };
@@ -154,7 +153,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2861EAE5206269D500DA8E95 /* ColorSlider.framework in Frameworks */,
 				28ADB415205D7E24006B2DB1 /* NVActivityIndicatorView.framework in Frameworks */,
 				28C416842061F77F0068EAA0 /* DolfuAVPlayer.framework in Frameworks */,
 				284C58472061F86000AC925F /* DolfuFrameSlider.framework in Frameworks */,

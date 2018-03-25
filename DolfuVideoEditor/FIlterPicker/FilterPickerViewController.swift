@@ -8,7 +8,6 @@
 
 import UIKit
 import Photos
-import ColorSlider
 import DolfuAVPlayer
 import DolfuCollectionView
 import DolfuUtils

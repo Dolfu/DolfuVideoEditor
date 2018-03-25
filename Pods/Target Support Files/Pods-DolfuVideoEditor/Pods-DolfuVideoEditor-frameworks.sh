@@ -134,12 +134,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/ColorSlider/ColorSlider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Dropdowns/Dropdowns.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/ColorSlider/ColorSlider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Dropdowns/Dropdowns.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework"
 fi

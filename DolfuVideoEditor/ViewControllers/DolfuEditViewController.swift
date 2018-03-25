@@ -13,7 +13,6 @@ import NVActivityIndicatorView
 import DolfuFrameSlider
 import DolfuAVPlayer
 import DolfuUtils
-import ColorSlider
 
 class DolfuEditViewController: UIViewController, DolfuAVPlayerViewDelegate, UIPopoverPresentationControllerDelegate, FilterPickerViewDelegate {
     ///사용자가 추출을 위해 선택한 시간 range 표기 레이블

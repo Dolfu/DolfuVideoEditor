@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		281395602061FACE00D8AE8F /* DolfuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813955E2061FACE00D8AE8F /* DolfuCollectionViewCell.swift */; };
 		28C416412061F3910068EAA0 /* DolfuCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C416332061F3910068EAA0 /* DolfuCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28CD93CD2067DD73001B1D44 /* DolfuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CD93CC2067DD73001B1D44 /* DolfuCollectionViewCell.swift */; };
+		28CD93CE2067DDC4001B1D44 /* DolfuUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E26AD52066298300AD8FA0 /* DolfuUtils.framework */; };
 		28E26AD22066281600AD8FA0 /* DolfuFilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E26AD12066281600AD8FA0 /* DolfuFilterCollectionViewCell.swift */; };
-		28E26AD42066298300AD8FA0 /* DolfuUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E26AD52066298300AD8FA0 /* DolfuUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2813955E2061FACE00D8AE8F /* DolfuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolfuCollectionViewCell.swift; sourceTree = "<group>"; };
 		28C416302061F3910068EAA0 /* DolfuCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DolfuCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C416332061F3910068EAA0 /* DolfuCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DolfuCollectionView.h; sourceTree = "<group>"; };
 		28C416342061F3910068EAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CD93CC2067DD73001B1D44 /* DolfuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolfuCollectionViewCell.swift; sourceTree = "<group>"; };
 		28E26AD12066281600AD8FA0 /* DolfuFilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolfuFilterCollectionViewCell.swift; sourceTree = "<group>"; };
 		28E26AD52066298300AD8FA0 /* DolfuUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DolfuUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E26AD42066298300AD8FA0 /* DolfuUtils.framework in Frameworks */,
+				28CD93CE2067DDC4001B1D44 /* DolfuUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +54,7 @@
 		28C416322061F3910068EAA0 /* DolfuCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				2813955E2061FACE00D8AE8F /* DolfuCollectionViewCell.swift */,
+				28CD93CC2067DD73001B1D44 /* DolfuCollectionViewCell.swift */,
 				28C416332061F3910068EAA0 /* DolfuCollectionView.h */,
 				28C416342061F3910068EAA0 /* Info.plist */,
 				28E26AD12066281600AD8FA0 /* DolfuFilterCollectionViewCell.swift */,
@@ -152,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28E26AD22066281600AD8FA0 /* DolfuFilterCollectionViewCell.swift in Sources */,
-				281395602061FACE00D8AE8F /* DolfuCollectionViewCell.swift in Sources */,
+				28CD93CD2067DD73001B1D44 /* DolfuCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

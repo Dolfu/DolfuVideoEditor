@@ -1,20 +1,17 @@
 PODS:
-  - ColorSlider (4.1.2)
   - Dropdowns (2.0.0)
   - NVActivityIndicatorView (4.1.1):
     - NVActivityIndicatorView/Presenter (= 4.1.1)
   - NVActivityIndicatorView/Presenter (4.1.1)
 
 DEPENDENCIES:
-  - ColorSlider (~> 4.1.2)
   - Dropdowns
   - NVActivityIndicatorView
 
 SPEC CHECKSUMS:
-  ColorSlider: 6ad9a2b1ff168ba2f8c3265e9d4fe5ea3575cb7c
   Dropdowns: 9dd32d9ac9cc59e56ae093b588d35477abde32d2
   NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
 
-PODFILE CHECKSUM: df6ab6ec4eba5be2e4881b0d9d9e7b28d5be4a7e
+PODFILE CHECKSUM: bec8a9bba927b2d7c9d2820dd1c1ed2c67207d28
 
 COCOAPODS: 1.4.0

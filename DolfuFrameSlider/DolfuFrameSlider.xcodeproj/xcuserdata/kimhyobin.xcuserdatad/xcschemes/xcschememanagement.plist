@@ -4,18 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DolfuVideoEditor.xcscheme</key>
+		<key>DolfuFrameSlider.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>28ADB3DB205D71FA006B2DB1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<integer>6</integer>
 		</dict>
 	</dict>
 </dict>

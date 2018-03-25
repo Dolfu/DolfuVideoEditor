@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		281395582061F8CA00D8AE8F /* DolfuAVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281395552061F8CA00D8AE8F /* DolfuAVPlayerView.swift */; };
-		281395592061F8CA00D8AE8F /* DolfuAVPlayerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281395562061F8CA00D8AE8F /* DolfuAVPlayerViewDelegate.swift */; };
 		28C416722061F7600068EAA0 /* DolfuAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C416642061F7600068EAA0 /* DolfuAVPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28CD93CA2067DD1A001B1D44 /* DolfuAVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CD93C82067DD1A001B1D44 /* DolfuAVPlayerView.swift */; };
+		28CD93CB2067DD1A001B1D44 /* DolfuAVPlayerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CD93C92067DD1A001B1D44 /* DolfuAVPlayerViewDelegate.swift */; };
 		28E26AC52065C30000AD8FA0 /* VideoFilterCompositionInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E26AC42065C30000AD8FA0 /* VideoFilterCompositionInstruction.swift */; };
 		28E26AC72065C71E00AD8FA0 /* VideoFilterCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E26AC62065C71E00AD8FA0 /* VideoFilterCompositor.swift */; };
 		28E26AC92065C81200AD8FA0 /* VideoFilterExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E26AC82065C81200AD8FA0 /* VideoFilterExport.swift */; };
@@ -18,17 +18,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		281395552061F8CA00D8AE8F /* DolfuAVPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolfuAVPlayerView.swift; sourceTree = "<group>"; };
-		281395562061F8CA00D8AE8F /* DolfuAVPlayerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolfuAVPlayerViewDelegate.swift; sourceTree = "<group>"; };
 		28C416612061F7600068EAA0 /* DolfuAVPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DolfuAVPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C416642061F7600068EAA0 /* DolfuAVPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DolfuAVPlayer.h; sourceTree = "<group>"; };
 		28C416652061F7600068EAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CD93C82067DD1A001B1D44 /* DolfuAVPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolfuAVPlayerView.swift; sourceTree = "<group>"; };
+		28CD93C92067DD1A001B1D44 /* DolfuAVPlayerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolfuAVPlayerViewDelegate.swift; sourceTree = "<group>"; };
 		28E26AC42065C30000AD8FA0 /* VideoFilterCompositionInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFilterCompositionInstruction.swift; sourceTree = "<group>"; };
 		28E26AC62065C71E00AD8FA0 /* VideoFilterCompositor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFilterCompositor.swift; sourceTree = "<group>"; };
 		28E26AC82065C81200AD8FA0 /* VideoFilterExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFilterExport.swift; sourceTree = "<group>"; };
 		28E26ACC2065EB6F00AD8FA0 /* DolfuUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DolfuUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E26ACD20660AA000AD8FA0 /* DolfuFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolfuFilters.swift; sourceTree = "<group>"; };
-		28E26ADE2067C92100AD8FA0 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +62,22 @@
 		28C416632061F7600068EAA0 /* DolfuAVPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				28E26AD82067813700AD8FA0 /* Player */,
+				28CD93C72067DD07001B1D44 /* Player */,
 				28E26AA820654FFF00AD8FA0 /* Filters */,
 				28E26AA320654F3300AD8FA0 /* Exporter */,
 				28C416642061F7600068EAA0 /* DolfuAVPlayer.h */,
 				28C416652061F7600068EAA0 /* Info.plist */,
 			);
 			path = DolfuAVPlayer;
+			sourceTree = "<group>";
+		};
+		28CD93C72067DD07001B1D44 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				28CD93C82067DD1A001B1D44 /* DolfuAVPlayerView.swift */,
+				28CD93C92067DD1A001B1D44 /* DolfuAVPlayerViewDelegate.swift */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 		28E26AA320654F3300AD8FA0 /* Exporter */ = {
@@ -93,19 +101,9 @@
 		28E26ACA2065EB6F00AD8FA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28E26ADE2067C92100AD8FA0 /* NVActivityIndicatorView.framework */,
 				28E26ACC2065EB6F00AD8FA0 /* DolfuUtils.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		28E26AD82067813700AD8FA0 /* Player */ = {
-			isa = PBXGroup;
-			children = (
-				281395562061F8CA00D8AE8F /* DolfuAVPlayerViewDelegate.swift */,
-				281395552061F8CA00D8AE8F /* DolfuAVPlayerView.swift */,
-			);
-			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,12 +187,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				281395592061F8CA00D8AE8F /* DolfuAVPlayerViewDelegate.swift in Sources */,
 				28E26ACE20660AA000AD8FA0 /* DolfuFilters.swift in Sources */,
 				28E26AC52065C30000AD8FA0 /* VideoFilterCompositionInstruction.swift in Sources */,
 				28E26AC92065C81200AD8FA0 /* VideoFilterExport.swift in Sources */,
+				28CD93CA2067DD1A001B1D44 /* DolfuAVPlayerView.swift in Sources */,
+				28CD93CB2067DD1A001B1D44 /* DolfuAVPlayerViewDelegate.swift in Sources */,
 				28E26AC72065C71E00AD8FA0 /* VideoFilterCompositor.swift in Sources */,
-				281395582061F8CA00D8AE8F /* DolfuAVPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

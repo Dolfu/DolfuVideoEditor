@@ -9,9 +9,6 @@ target 'DolfuVideoEditor' do
   use_frameworks!
   pod 'NVActivityIndicatorView'
 
-  platform :ios, '9.0'
-  pod 'ColorSlider', '~> 4.1.2'
-
   #target 'DolfuVideoEditorTests' do
     #inherit! :search_paths
     # Pods for testing
