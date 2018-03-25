@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		28C415D32061E6DB0068EAA0 /* DolfuFrameSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C415C52061E6DB0068EAA0 /* DolfuFrameSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28C4161D2061EAA00068EAA0 /* DolfuFrameSliderThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4161A2061EAA00068EAA0 /* DolfuFrameSliderThumbLayer.swift */; };
-		28C4161E2061EAA00068EAA0 /* DolfuFrameSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4161B2061EAA00068EAA0 /* DolfuFrameSlider.swift */; };
-		28C4161F2061EAA00068EAA0 /* DolfuFrameSliderTrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4161C2061EAA00068EAA0 /* DolfuFrameSliderTrackLayer.swift */; };
+		28CD93C22067DC27001B1D44 /* DolfuFrameSliderThumbLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CD93BF2067DC27001B1D44 /* DolfuFrameSliderThumbLayer.swift */; };
+		28CD93C32067DC27001B1D44 /* DolfuFrameSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CD93C02067DC27001B1D44 /* DolfuFrameSlider.swift */; };
+		28CD93C42067DC27001B1D44 /* DolfuFrameSliderTrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CD93C12067DC27001B1D44 /* DolfuFrameSliderTrackLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28C415C22061E6DB0068EAA0 /* DolfuFrameSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DolfuFrameSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C415C52061E6DB0068EAA0 /* DolfuFrameSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DolfuFrameSlider.h; sourceTree = "<group>"; };
 		28C415C62061E6DB0068EAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28C4161A2061EAA00068EAA0 /* DolfuFrameSliderThumbLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolfuFrameSliderThumbLayer.swift; sourceTree = "<group>"; };
-		28C4161B2061EAA00068EAA0 /* DolfuFrameSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolfuFrameSlider.swift; sourceTree = "<group>"; };
-		28C4161C2061EAA00068EAA0 /* DolfuFrameSliderTrackLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolfuFrameSliderTrackLayer.swift; sourceTree = "<group>"; };
+		28CD93BF2067DC27001B1D44 /* DolfuFrameSliderThumbLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolfuFrameSliderThumbLayer.swift; sourceTree = "<group>"; };
+		28CD93C02067DC27001B1D44 /* DolfuFrameSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolfuFrameSlider.swift; sourceTree = "<group>"; };
+		28CD93C12067DC27001B1D44 /* DolfuFrameSliderTrackLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolfuFrameSliderTrackLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +52,9 @@
 		28C415C42061E6DB0068EAA0 /* DolfuFrameSlider */ = {
 			isa = PBXGroup;
 			children = (
-				28C4161B2061EAA00068EAA0 /* DolfuFrameSlider.swift */,
-				28C4161A2061EAA00068EAA0 /* DolfuFrameSliderThumbLayer.swift */,
-				28C4161C2061EAA00068EAA0 /* DolfuFrameSliderTrackLayer.swift */,
+				28CD93C02067DC27001B1D44 /* DolfuFrameSlider.swift */,
+				28CD93BF2067DC27001B1D44 /* DolfuFrameSliderThumbLayer.swift */,
+				28CD93C12067DC27001B1D44 /* DolfuFrameSliderTrackLayer.swift */,
 				28C415C52061E6DB0068EAA0 /* DolfuFrameSlider.h */,
 				28C415C62061E6DB0068EAA0 /* Info.plist */,
 			);
@@ -105,6 +105,7 @@
 				TargetAttributes = {
 					28C415C12061E6DB0068EAA0 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -141,9 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C4161F2061EAA00068EAA0 /* DolfuFrameSliderTrackLayer.swift in Sources */,
-				28C4161D2061EAA00068EAA0 /* DolfuFrameSliderThumbLayer.swift in Sources */,
-				28C4161E2061EAA00068EAA0 /* DolfuFrameSlider.swift in Sources */,
+				28CD93C42067DC27001B1D44 /* DolfuFrameSliderTrackLayer.swift in Sources */,
+				28CD93C22067DC27001B1D44 /* DolfuFrameSliderThumbLayer.swift in Sources */,
+				28CD93C32067DC27001B1D44 /* DolfuFrameSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +267,7 @@
 		28C415D72061E6DB0068EAA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -279,6 +281,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dolfu.DolfuFrameSlider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,6 +290,7 @@
 		28C415D82061E6DB0068EAA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
