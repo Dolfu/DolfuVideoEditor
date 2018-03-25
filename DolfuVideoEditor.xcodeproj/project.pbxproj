@@ -7,33 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281395D120624A8B00D8AE8F /* OutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281395D020624A8B00D8AE8F /* OutputViewController.swift */; };
+		284C58472061F86000AC925F /* DolfuFrameSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284C58442061F85300AC925F /* DolfuFrameSlider.framework */; };
+		284C58482061F86000AC925F /* DolfuFrameSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 284C58442061F85300AC925F /* DolfuFrameSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2861EAD6206261E800DA8E95 /* DolfuUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281395CB20623B5200D8AE8F /* DolfuUtils.framework */; };
+		2861EAD7206261E800DA8E95 /* DolfuUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 281395CB20623B5200D8AE8F /* DolfuUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2861EAE5206269D500DA8E95 /* ColorSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2861EAE6206269D500DA8E95 /* ColorSlider.framework */; };
+		2861EAEE206287C600DA8E95 /* FilterPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2861EAED206287C600DA8E95 /* FilterPickerViewController.swift */; };
 		28ADB3E0205D71FA006B2DB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ADB3DF205D71FA006B2DB1 /* AppDelegate.swift */; };
 		28ADB3E2205D71FA006B2DB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ADB3E1205D71FA006B2DB1 /* ViewController.swift */; };
 		28ADB3E5205D71FA006B2DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28ADB3E3205D71FA006B2DB1 /* Main.storyboard */; };
 		28ADB3E7205D71FA006B2DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28ADB3E6205D71FA006B2DB1 /* Assets.xcassets */; };
 		28ADB3EA205D71FA006B2DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28ADB3E8205D71FA006B2DB1 /* LaunchScreen.storyboard */; };
-		28ADB3F5205D71FA006B2DB1 /* DolfuVideoEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ADB3F4205D71FA006B2DB1 /* DolfuVideoEditorTests.swift */; };
-		28ADB400205D71FB006B2DB1 /* DolfuVideoEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ADB3FF205D71FB006B2DB1 /* DolfuVideoEditorUITests.swift */; };
+		28ADB413205D7A66006B2DB1 /* Dropdowns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28ADB414205D7A66006B2DB1 /* Dropdowns.framework */; };
+		28ADB415205D7E24006B2DB1 /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28ADB416205D7E24006B2DB1 /* NVActivityIndicatorView.framework */; };
+		28C0C2332062A94200845400 /* FilterPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0C2322062A94200845400 /* FilterPickerViewDelegate.swift */; };
+		28C415882060E3EB0068EAA0 /* DolfuEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C415872060E3EB0068EAA0 /* DolfuEditViewController.swift */; };
+		28C4158F2060F5580068EAA0 /* ForIndicatorViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C4158E2060F5580068EAA0 /* ForIndicatorViewClass.swift */; };
+		28C416532061F3C80068EAA0 /* DolfuCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C416502061F3920068EAA0 /* DolfuCollectionView.framework */; };
+		28C416542061F3C80068EAA0 /* DolfuCollectionView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28C416502061F3920068EAA0 /* DolfuCollectionView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28C416842061F77F0068EAA0 /* DolfuAVPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C416812061F7610068EAA0 /* DolfuAVPlayer.framework */; };
+		28C416852061F77F0068EAA0 /* DolfuAVPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28C416812061F7610068EAA0 /* DolfuAVPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28E26ABF2065748F00AD8FA0 /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E26ABE2065748F00AD8FA0 /* AlbumModel.swift */; };
+		28E26AC320657D8900AD8FA0 /* EditQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E26AC220657D8900AD8FA0 /* EditQuestionViewController.swift */; };
+		28E26ADC2067863700AD8FA0 /* EditQuestionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E26ADB2067863700AD8FA0 /* EditQuestionViewDelegate.swift */; };
+		7D73019300A7E91B6EE1E257 /* Pods_DolfuVideoEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CBCDF7E762745BF54341DF4 /* Pods_DolfuVideoEditor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		28ADB3F1205D71FA006B2DB1 /* PBXContainerItemProxy */ = {
+		281395CA20623B5200D8AE8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 28ADB3D4205D71FA006B2DB1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28ADB3DB205D71FA006B2DB1;
-			remoteInfo = DolfuVideoEditor;
+			containerPortal = 281395C520623B5100D8AE8F /* DolfuUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 281395AB20623B5000D8AE8F;
+			remoteInfo = DolfuUtils;
 		};
-		28ADB3FC205D71FB006B2DB1 /* PBXContainerItemProxy */ = {
+		281395CC20623B5200D8AE8F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 28ADB3D4205D71FA006B2DB1 /* Project object */;
+			containerPortal = 281395C520623B5100D8AE8F /* DolfuUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 281395B420623B5100D8AE8F;
+			remoteInfo = DolfuUtilsTests;
+		};
+		284C58432061F85300AC925F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 284C583E2061F85300AC925F /* DolfuFrameSlider.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 28C415C22061E6DB0068EAA0;
+			remoteInfo = DolfuFrameSlider;
+		};
+		284C58492061F86000AC925F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 284C583E2061F85300AC925F /* DolfuFrameSlider.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 28ADB3DB205D71FA006B2DB1;
-			remoteInfo = DolfuVideoEditor;
+			remoteGlobalIDString = 28C415C12061E6DB0068EAA0;
+			remoteInfo = DolfuFrameSlider;
+		};
+		2861EAD8206261E800DA8E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281395C520623B5100D8AE8F /* DolfuUtils.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 281395AA20623B5000D8AE8F;
+			remoteInfo = DolfuUtils;
+		};
+		28C4164F2061F3920068EAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C4164A2061F3910068EAA0 /* DolfuCollectionView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 28C416302061F3910068EAA0;
+			remoteInfo = DolfuCollectionView;
+		};
+		28C416552061F3C80068EAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C4164A2061F3910068EAA0 /* DolfuCollectionView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C4162F2061F3910068EAA0;
+			remoteInfo = DolfuCollectionView;
+		};
+		28C416802061F7610068EAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C4167B2061F7600068EAA0 /* DolfuAVPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 28C416612061F7600068EAA0;
+			remoteInfo = DolfuAVPlayer;
+		};
+		28C416862061F77F0068EAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C4167B2061F7600068EAA0 /* DolfuAVPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C416602061F7600068EAA0;
+			remoteInfo = DolfuAVPlayer;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		28C416252061ED690068EAA0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				28C416542061F3C80068EAA0 /* DolfuCollectionView.framework in Embed Frameworks */,
+				28C416852061F77F0068EAA0 /* DolfuAVPlayer.framework in Embed Frameworks */,
+				284C58482061F86000AC925F /* DolfuFrameSlider.framework in Embed Frameworks */,
+				2861EAD7206261E800DA8E95 /* DolfuUtils.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1DE69AFD92F0FA9F1DDCD261 /* Pods-DolfuVideoEditorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolfuVideoEditorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DolfuVideoEditorUITests/Pods-DolfuVideoEditorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		281395C520623B5100D8AE8F /* DolfuUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DolfuUtils.xcodeproj; path = DolfuUtils/DolfuUtils.xcodeproj; sourceTree = "<group>"; };
+		281395D020624A8B00D8AE8F /* OutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputViewController.swift; sourceTree = "<group>"; };
+		284C583E2061F85300AC925F /* DolfuFrameSlider.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DolfuFrameSlider.xcodeproj; path = DolfuFrameSlider/DolfuFrameSlider.xcodeproj; sourceTree = "<group>"; };
+		2861EAE6206269D500DA8E95 /* ColorSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ColorSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2861EAED206287C600DA8E95 /* FilterPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPickerViewController.swift; sourceTree = "<group>"; };
 		28ADB3DC205D71FA006B2DB1 /* DolfuVideoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DolfuVideoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28ADB3DF205D71FA006B2DB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28ADB3E1205D71FA006B2DB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,12 +131,22 @@
 		28ADB3E6205D71FA006B2DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28ADB3E9205D71FA006B2DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28ADB3EB205D71FA006B2DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28ADB3F0205D71FA006B2DB1 /* DolfuVideoEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolfuVideoEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28ADB3F4205D71FA006B2DB1 /* DolfuVideoEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolfuVideoEditorTests.swift; sourceTree = "<group>"; };
-		28ADB3F6205D71FB006B2DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28ADB3FB205D71FB006B2DB1 /* DolfuVideoEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolfuVideoEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28ADB3FF205D71FB006B2DB1 /* DolfuVideoEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolfuVideoEditorUITests.swift; sourceTree = "<group>"; };
-		28ADB401205D71FB006B2DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28ADB414205D7A66006B2DB1 /* Dropdowns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dropdowns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28ADB416205D7E24006B2DB1 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C0C2322062A94200845400 /* FilterPickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPickerViewDelegate.swift; sourceTree = "<group>"; };
+		28C415872060E3EB0068EAA0 /* DolfuEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolfuEditViewController.swift; sourceTree = "<group>"; };
+		28C4158E2060F5580068EAA0 /* ForIndicatorViewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForIndicatorViewClass.swift; sourceTree = "<group>"; };
+		28C4164A2061F3910068EAA0 /* DolfuCollectionView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DolfuCollectionView.xcodeproj; path = DolfuCollectionView/DolfuCollectionView.xcodeproj; sourceTree = "<group>"; };
+		28C4167B2061F7600068EAA0 /* DolfuAVPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DolfuAVPlayer.xcodeproj; path = DolfuAVPlayer/DolfuAVPlayer.xcodeproj; sourceTree = "<group>"; };
+		28E26ABE2065748F00AD8FA0 /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		28E26AC220657D8900AD8FA0 /* EditQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditQuestionViewController.swift; sourceTree = "<group>"; };
+		28E26ADB2067863700AD8FA0 /* EditQuestionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditQuestionViewDelegate.swift; sourceTree = "<group>"; };
+		397C035D0D33A259115CDF87 /* Pods-DolfuVideoEditorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolfuVideoEditorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DolfuVideoEditorUITests/Pods-DolfuVideoEditorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B40A2313B6D4B8E06A173C8 /* Pods-DolfuVideoEditorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolfuVideoEditorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DolfuVideoEditorTests/Pods-DolfuVideoEditorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CBCDF7E762745BF54341DF4 /* Pods_DolfuVideoEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DolfuVideoEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60811B8EFBDE3BF45BAEC36A /* Pods-DolfuVideoEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolfuVideoEditor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DolfuVideoEditor/Pods-DolfuVideoEditor.debug.xcconfig"; sourceTree = "<group>"; };
+		85D875B2C134C6D993F3B879 /* Pods-DolfuVideoEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolfuVideoEditor.release.xcconfig"; path = "Pods/Target Support Files/Pods-DolfuVideoEditor/Pods-DolfuVideoEditor.release.xcconfig"; sourceTree = "<group>"; };
+		8D6B72826D33714A207F97B2 /* Pods-DolfuVideoEditorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DolfuVideoEditorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DolfuVideoEditorTests/Pods-DolfuVideoEditorTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,32 +154,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28ADB3ED205D71FA006B2DB1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28ADB3F8205D71FB006B2DB1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2861EAE5206269D500DA8E95 /* ColorSlider.framework in Frameworks */,
+				28ADB415205D7E24006B2DB1 /* NVActivityIndicatorView.framework in Frameworks */,
+				28C416842061F77F0068EAA0 /* DolfuAVPlayer.framework in Frameworks */,
+				284C58472061F86000AC925F /* DolfuFrameSlider.framework in Frameworks */,
+				28ADB413205D7A66006B2DB1 /* Dropdowns.framework in Frameworks */,
+				28C416532061F3C80068EAA0 /* DolfuCollectionView.framework in Frameworks */,
+				2861EAD6206261E800DA8E95 /* DolfuUtils.framework in Frameworks */,
+				7D73019300A7E91B6EE1E257 /* Pods_DolfuVideoEditor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BA6643FC154A6606BEE7D48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2861EAE6206269D500DA8E95 /* ColorSlider.framework */,
+				28ADB416205D7E24006B2DB1 /* NVActivityIndicatorView.framework */,
+				28ADB414205D7A66006B2DB1 /* Dropdowns.framework */,
+				5CBCDF7E762745BF54341DF4 /* Pods_DolfuVideoEditor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		281395C620623B5100D8AE8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				281395CB20623B5200D8AE8F /* DolfuUtils.framework */,
+				281395CD20623B5200D8AE8F /* DolfuUtilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282DFFC1205EA372008600AD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28ADB3E1205D71FA006B2DB1 /* ViewController.swift */,
+				28C415872060E3EB0068EAA0 /* DolfuEditViewController.swift */,
+				281395D020624A8B00D8AE8F /* OutputViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		284C583F2061F85300AC925F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284C58442061F85300AC925F /* DolfuFrameSlider.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2861EAE8206277C000DA8E95 /* FIlterPicker */ = {
+			isa = PBXGroup;
+			children = (
+				2861EAED206287C600DA8E95 /* FilterPickerViewController.swift */,
+				28C0C2322062A94200845400 /* FilterPickerViewDelegate.swift */,
+			);
+			path = FIlterPicker;
+			sourceTree = "<group>";
+		};
 		28ADB3D3205D71FA006B2DB1 = {
 			isa = PBXGroup;
 			children = (
+				281395C520623B5100D8AE8F /* DolfuUtils.xcodeproj */,
+				284C583E2061F85300AC925F /* DolfuFrameSlider.xcodeproj */,
+				28C4167B2061F7600068EAA0 /* DolfuAVPlayer.xcodeproj */,
+				28C4164A2061F3910068EAA0 /* DolfuCollectionView.xcodeproj */,
 				28ADB3DE205D71FA006B2DB1 /* DolfuVideoEditor */,
-				28ADB3F3205D71FA006B2DB1 /* DolfuVideoEditorTests */,
-				28ADB3FE205D71FB006B2DB1 /* DolfuVideoEditorUITests */,
+				0BA6643FC154A6606BEE7D48 /* Frameworks */,
+				6AAD8F4F11E211DE426C9D45 /* Pods */,
 				28ADB3DD205D71FA006B2DB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				28ADB3DC205D71FA006B2DB1 /* DolfuVideoEditor.app */,
-				28ADB3F0205D71FA006B2DB1 /* DolfuVideoEditorTests.xctest */,
-				28ADB3FB205D71FB006B2DB1 /* DolfuVideoEditorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,8 +240,12 @@
 		28ADB3DE205D71FA006B2DB1 /* DolfuVideoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				28E26ADA206782FC00AD8FA0 /* PreViewer */,
+				28E26ABD2065747E00AD8FA0 /* Model */,
+				2861EAE8206277C000DA8E95 /* FIlterPicker */,
+				28C415892060F0230068EAA0 /* Utils */,
+				282DFFC1205EA372008600AD /* ViewControllers */,
 				28ADB3DF205D71FA006B2DB1 /* AppDelegate.swift */,
-				28ADB3E1205D71FA006B2DB1 /* ViewController.swift */,
 				28ADB3E3205D71FA006B2DB1 /* Main.storyboard */,
 				28ADB3E6205D71FA006B2DB1 /* Assets.xcassets */,
 				28ADB3E8205D71FA006B2DB1 /* LaunchScreen.storyboard */,
@@ -107,22 +254,58 @@
 			path = DolfuVideoEditor;
 			sourceTree = "<group>";
 		};
-		28ADB3F3205D71FA006B2DB1 /* DolfuVideoEditorTests */ = {
+		28C415892060F0230068EAA0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				28ADB3F4205D71FA006B2DB1 /* DolfuVideoEditorTests.swift */,
-				28ADB3F6205D71FB006B2DB1 /* Info.plist */,
+				28C4158E2060F5580068EAA0 /* ForIndicatorViewClass.swift */,
 			);
-			path = DolfuVideoEditorTests;
+			path = Utils;
 			sourceTree = "<group>";
 		};
-		28ADB3FE205D71FB006B2DB1 /* DolfuVideoEditorUITests */ = {
+		28C4164B2061F3910068EAA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28ADB3FF205D71FB006B2DB1 /* DolfuVideoEditorUITests.swift */,
-				28ADB401205D71FB006B2DB1 /* Info.plist */,
+				28C416502061F3920068EAA0 /* DolfuCollectionView.framework */,
 			);
-			path = DolfuVideoEditorUITests;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C4167C2061F7600068EAA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28C416812061F7610068EAA0 /* DolfuAVPlayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28E26ABD2065747E00AD8FA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28E26ABE2065748F00AD8FA0 /* AlbumModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28E26ADA206782FC00AD8FA0 /* PreViewer */ = {
+			isa = PBXGroup;
+			children = (
+				28E26AC220657D8900AD8FA0 /* EditQuestionViewController.swift */,
+				28E26ADB2067863700AD8FA0 /* EditQuestionViewDelegate.swift */,
+			);
+			path = PreViewer;
+			sourceTree = "<group>";
+		};
+		6AAD8F4F11E211DE426C9D45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60811B8EFBDE3BF45BAEC36A /* Pods-DolfuVideoEditor.debug.xcconfig */,
+				85D875B2C134C6D993F3B879 /* Pods-DolfuVideoEditor.release.xcconfig */,
+				4B40A2313B6D4B8E06A173C8 /* Pods-DolfuVideoEditorTests.debug.xcconfig */,
+				8D6B72826D33714A207F97B2 /* Pods-DolfuVideoEditorTests.release.xcconfig */,
+				397C035D0D33A259115CDF87 /* Pods-DolfuVideoEditorUITests.debug.xcconfig */,
+				1DE69AFD92F0FA9F1DDCD261 /* Pods-DolfuVideoEditorUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,54 +315,26 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28ADB404205D71FB006B2DB1 /* Build configuration list for PBXNativeTarget "DolfuVideoEditor" */;
 			buildPhases = (
+				6CA7C13CCD7AF9A2A214EC39 /* [CP] Check Pods Manifest.lock */,
 				28ADB3D8205D71FA006B2DB1 /* Sources */,
 				28ADB3D9205D71FA006B2DB1 /* Frameworks */,
 				28ADB3DA205D71FA006B2DB1 /* Resources */,
+				7E5FBE6DFC5610D0E8DD3E60 /* [CP] Embed Pods Frameworks */,
+				70BADC74539F77ED7FC24C85 /* [CP] Copy Pods Resources */,
+				28C416252061ED690068EAA0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				28C416562061F3C80068EAA0 /* PBXTargetDependency */,
+				28C416872061F77F0068EAA0 /* PBXTargetDependency */,
+				284C584A2061F86000AC925F /* PBXTargetDependency */,
+				2861EAD9206261E800DA8E95 /* PBXTargetDependency */,
 			);
 			name = DolfuVideoEditor;
 			productName = DolfuVideoEditor;
 			productReference = 28ADB3DC205D71FA006B2DB1 /* DolfuVideoEditor.app */;
 			productType = "com.apple.product-type.application";
-		};
-		28ADB3EF205D71FA006B2DB1 /* DolfuVideoEditorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28ADB407205D71FB006B2DB1 /* Build configuration list for PBXNativeTarget "DolfuVideoEditorTests" */;
-			buildPhases = (
-				28ADB3EC205D71FA006B2DB1 /* Sources */,
-				28ADB3ED205D71FA006B2DB1 /* Frameworks */,
-				28ADB3EE205D71FA006B2DB1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				28ADB3F2205D71FA006B2DB1 /* PBXTargetDependency */,
-			);
-			name = DolfuVideoEditorTests;
-			productName = DolfuVideoEditorTests;
-			productReference = 28ADB3F0205D71FA006B2DB1 /* DolfuVideoEditorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		28ADB3FA205D71FB006B2DB1 /* DolfuVideoEditorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28ADB40A205D71FB006B2DB1 /* Build configuration list for PBXNativeTarget "DolfuVideoEditorUITests" */;
-			buildPhases = (
-				28ADB3F7205D71FB006B2DB1 /* Sources */,
-				28ADB3F8205D71FB006B2DB1 /* Frameworks */,
-				28ADB3F9205D71FB006B2DB1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				28ADB3FD205D71FB006B2DB1 /* PBXTargetDependency */,
-			);
-			name = DolfuVideoEditorUITests;
-			productName = DolfuVideoEditorUITests;
-			productReference = 28ADB3FB205D71FB006B2DB1 /* DolfuVideoEditorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -195,16 +350,6 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					28ADB3EF205D71FA006B2DB1 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 28ADB3DB205D71FA006B2DB1;
-					};
-					28ADB3FA205D71FB006B2DB1 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 28ADB3DB205D71FA006B2DB1;
-					};
 				};
 			};
 			buildConfigurationList = 28ADB3D7205D71FA006B2DB1 /* Build configuration list for PBXProject "DolfuVideoEditor" */;
@@ -218,14 +363,68 @@
 			mainGroup = 28ADB3D3205D71FA006B2DB1;
 			productRefGroup = 28ADB3DD205D71FA006B2DB1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 28C4167C2061F7600068EAA0 /* Products */;
+					ProjectRef = 28C4167B2061F7600068EAA0 /* DolfuAVPlayer.xcodeproj */;
+				},
+				{
+					ProductGroup = 28C4164B2061F3910068EAA0 /* Products */;
+					ProjectRef = 28C4164A2061F3910068EAA0 /* DolfuCollectionView.xcodeproj */;
+				},
+				{
+					ProductGroup = 284C583F2061F85300AC925F /* Products */;
+					ProjectRef = 284C583E2061F85300AC925F /* DolfuFrameSlider.xcodeproj */;
+				},
+				{
+					ProductGroup = 281395C620623B5100D8AE8F /* Products */;
+					ProjectRef = 281395C520623B5100D8AE8F /* DolfuUtils.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				28ADB3DB205D71FA006B2DB1 /* DolfuVideoEditor */,
-				28ADB3EF205D71FA006B2DB1 /* DolfuVideoEditorTests */,
-				28ADB3FA205D71FB006B2DB1 /* DolfuVideoEditorUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		281395CB20623B5200D8AE8F /* DolfuUtils.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DolfuUtils.framework;
+			remoteRef = 281395CA20623B5200D8AE8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		281395CD20623B5200D8AE8F /* DolfuUtilsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DolfuUtilsTests.xctest;
+			remoteRef = 281395CC20623B5200D8AE8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		284C58442061F85300AC925F /* DolfuFrameSlider.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DolfuFrameSlider.framework;
+			remoteRef = 284C58432061F85300AC925F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28C416502061F3920068EAA0 /* DolfuCollectionView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DolfuCollectionView.framework;
+			remoteRef = 28C4164F2061F3920068EAA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		28C416812061F7610068EAA0 /* DolfuAVPlayer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DolfuAVPlayer.framework;
+			remoteRef = 28C416802061F7610068EAA0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		28ADB3DA205D71FA006B2DB1 /* Resources */ = {
@@ -238,60 +437,106 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28ADB3EE205D71FA006B2DB1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28ADB3F9205D71FB006B2DB1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CA7C13CCD7AF9A2A214EC39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DolfuVideoEditor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70BADC74539F77ED7FC24C85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DolfuVideoEditor/Pods-DolfuVideoEditor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E5FBE6DFC5610D0E8DD3E60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DolfuVideoEditor/Pods-DolfuVideoEditor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ColorSlider/ColorSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/Dropdowns/Dropdowns.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ColorSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dropdowns.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DolfuVideoEditor/Pods-DolfuVideoEditor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28ADB3D8205D71FA006B2DB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2861EAEE206287C600DA8E95 /* FilterPickerViewController.swift in Sources */,
+				28E26ABF2065748F00AD8FA0 /* AlbumModel.swift in Sources */,
+				281395D120624A8B00D8AE8F /* OutputViewController.swift in Sources */,
+				28C0C2332062A94200845400 /* FilterPickerViewDelegate.swift in Sources */,
+				28C415882060E3EB0068EAA0 /* DolfuEditViewController.swift in Sources */,
 				28ADB3E2205D71FA006B2DB1 /* ViewController.swift in Sources */,
+				28C4158F2060F5580068EAA0 /* ForIndicatorViewClass.swift in Sources */,
+				28E26ADC2067863700AD8FA0 /* EditQuestionViewDelegate.swift in Sources */,
 				28ADB3E0205D71FA006B2DB1 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28ADB3EC205D71FA006B2DB1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28ADB3F5205D71FA006B2DB1 /* DolfuVideoEditorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28ADB3F7205D71FB006B2DB1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28ADB400205D71FB006B2DB1 /* DolfuVideoEditorUITests.swift in Sources */,
+				28E26AC320657D8900AD8FA0 /* EditQuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		28ADB3F2205D71FA006B2DB1 /* PBXTargetDependency */ = {
+		284C584A2061F86000AC925F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28ADB3DB205D71FA006B2DB1 /* DolfuVideoEditor */;
-			targetProxy = 28ADB3F1205D71FA006B2DB1 /* PBXContainerItemProxy */;
+			name = DolfuFrameSlider;
+			targetProxy = 284C58492061F86000AC925F /* PBXContainerItemProxy */;
 		};
-		28ADB3FD205D71FB006B2DB1 /* PBXTargetDependency */ = {
+		2861EAD9206261E800DA8E95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28ADB3DB205D71FA006B2DB1 /* DolfuVideoEditor */;
-			targetProxy = 28ADB3FC205D71FB006B2DB1 /* PBXContainerItemProxy */;
+			name = DolfuUtils;
+			targetProxy = 2861EAD8206261E800DA8E95 /* PBXContainerItemProxy */;
+		};
+		28C416562061F3C80068EAA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DolfuCollectionView;
+			targetProxy = 28C416552061F3C80068EAA0 /* PBXContainerItemProxy */;
+		};
+		28C416872061F77F0068EAA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DolfuAVPlayer;
+			targetProxy = 28C416862061F77F0068EAA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -424,7 +669,9 @@
 		};
 		28ADB405205D71FB006B2DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60811B8EFBDE3BF45BAEC36A /* Pods-DolfuVideoEditor.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KS5WLQFDW;
@@ -439,7 +686,9 @@
 		};
 		28ADB406205D71FB006B2DB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85D875B2C134C6D993F3B879 /* Pods-DolfuVideoEditor.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KS5WLQFDW;
@@ -449,72 +698,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		28ADB408205D71FB006B2DB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KS5WLQFDW;
-				INFOPLIST_FILE = DolfuVideoEditorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dolfu.DolfuVideoEditorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DolfuVideoEditor.app/DolfuVideoEditor";
-			};
-			name = Debug;
-		};
-		28ADB409205D71FB006B2DB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KS5WLQFDW;
-				INFOPLIST_FILE = DolfuVideoEditorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dolfu.DolfuVideoEditorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DolfuVideoEditor.app/DolfuVideoEditor";
-			};
-			name = Release;
-		};
-		28ADB40B205D71FB006B2DB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KS5WLQFDW;
-				INFOPLIST_FILE = DolfuVideoEditorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dolfu.DolfuVideoEditorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DolfuVideoEditor;
-			};
-			name = Debug;
-		};
-		28ADB40C205D71FB006B2DB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KS5WLQFDW;
-				INFOPLIST_FILE = DolfuVideoEditorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dolfu.DolfuVideoEditorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DolfuVideoEditor;
 			};
 			name = Release;
 		};
@@ -535,24 +718,6 @@
 			buildConfigurations = (
 				28ADB405205D71FB006B2DB1 /* Debug */,
 				28ADB406205D71FB006B2DB1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28ADB407205D71FB006B2DB1 /* Build configuration list for PBXNativeTarget "DolfuVideoEditorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				28ADB408205D71FB006B2DB1 /* Debug */,
-				28ADB409205D71FB006B2DB1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28ADB40A205D71FB006B2DB1 /* Build configuration list for PBXNativeTarget "DolfuVideoEditorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				28ADB40B205D71FB006B2DB1 /* Debug */,
-				28ADB40C205D71FB006B2DB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
